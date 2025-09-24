@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://pm-33.com/sitemap.xml
+
+# Block admin and private areas
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /pricing
+Allow: /about
+Allow: /blog
+Allow: /ai-product-management-tool-landing
+Allow: /jira-product-discovery-vs-pm33-strategic-vs-tracking
+Allow: /pm33-vs-productboard-complete-2025-comparison
+Allow: /ai-prd-generator-guide
+Allow: /ai-prd-generator-idea-to-code-2-minutes
+Allow: /ai-project-management-software-guide
+Allow: /cut-pm-busywork-78-percent-strategic-automation
+Allow: /cut-pm-busywork-automation-guide
+Allow: /jira-product-discovery-vs-pm33-strategic-comparison
+Allow: /pm33-vs-productboard-comparison
+Allow: /product-velocity-calculator-ship-features-3x-faster
+Allow: /product-velocity-metrics-ultimate-guide
+
+# Crawl delay
+Crawl-delay: 1
